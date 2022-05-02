@@ -1,0 +1,6 @@
+.App {
+  text-align: center;
+  background-color: var(--light);
+  color: var(--text);
+  padding: 60px 0 0;
+}

@@ -1,0 +1,50 @@
+:root {
+  --dark: #222222;
+  --light: #f2f1ef;
+  --text: #2f3237;
+  --green: #47e4c2;
+  --hover: #6ee3ca;
+  --white: #ffffff;
+  --width1: 1050px;
+  --width2: 850px;
+  --width3: 700px;
+  --width4: 550px;
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: local("LatoLight"), url("../assets/font/Lato-Light.ttf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: local("LatoRegular"), url("../assets/font/Lato-Regular.ttf");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "LatoRegular", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+}

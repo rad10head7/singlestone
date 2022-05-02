@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--dark);
+  position: absolute;
+  height: 60px;
+}
+
+.brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: var(--width1);
+}
+
+.logo {
+  margin: 0.5em 0;
+  cursor: pointer;
+  max-width: 12em;
+}
+
+@media screen and (max-width: 1250px) {
+  .brand {
+    max-width: var(--width2);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .brand {
+    max-width: var(--width3);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .brand {
+    max-width: var(--width4);
+    padding: 0 3em;
+  }
+}
